@@ -13,8 +13,8 @@ function Checkout() {
             <div className='checkout-left'>
                 <img className='checkout-ad' src='https://codecanyon.img.customer.envatousercontent.com/files/251497040/preview+graphic.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=300&s=33ef954af9ffe668633f9333369d8fbb' alt='' />
                 <div>
-                    <h3>Hello, {user.email}</h3>
-                    <h2 className='checkout-title'>Your Cart!</h2>
+                    <h3>Hello!</h3>
+                    <h2 className='checkout-title'>Here's Your Cart!</h2>
                     {basket.map(item => (
                         <CheckoutProduct 
                             id={item.id}
