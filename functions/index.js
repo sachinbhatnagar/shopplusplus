@@ -3,14 +3,18 @@ const express = require("express");
 const cors = require("cors");
 const stripe = require("stripe")('sk_test_51KKPQdH7ZwCEXBDQvlUzI2swAkMkqiwHksOnQUxhdDPuUam6pEvTUPewOv0pJlTmgX389M1jC8TI3jqHXtY7ox3100bvfjaRuy')
 
-// API
+const corsOptions ={
+    origin:'http://localhost:3000', 
+    credentials:true,            //access-control-allow-credentials:true
+    optionSuccessStatus:200
+}
 
 
 // App configuration
 const app = express();
 
 // Middlewares
-app.use(cors({origin: true}));
+app.use(cors(corsOptions));
 app.use(express.json());
 
 // API Routes
