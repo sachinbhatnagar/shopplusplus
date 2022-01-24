@@ -4,7 +4,7 @@ const cors = require("cors");
 const stripe = require("stripe")('sk_test_51KKPQdH7ZwCEXBDQvlUzI2swAkMkqiwHksOnQUxhdDPuUam6pEvTUPewOv0pJlTmgX389M1jC8TI3jqHXtY7ox3100bvfjaRuy')
 
 const corsOptions ={
-    origin:'http://localhost:3000', 
+    origin:'https://crifshopplusplus.netlify.app', 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200
 }
