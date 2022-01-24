@@ -16,7 +16,7 @@ app.use(express.json());
 // API Routes
 app.get('/', (req, res) => {res.status(200).send('hello')});
 
-app.post('/payments/create', async(req, res) => {
+app.post('/payments/create', async (req, res) => {
     const total = req.query.total;
 
     console.log('Payment Request Received JINGLES! in amount of:', total);
@@ -25,8 +25,9 @@ app.post('/payments/create', async(req, res) => {
         amount: total,
         currency: "usd",
     });
+
     res.status(201).send({
-        clientSecret: paymentIntent.client_secret
+        clientSecret: paymentIntent.client_secret,
     });
 });
 
