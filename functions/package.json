@@ -18,6 +18,7 @@
     "express": "^4.17.2",
     "firebase-admin": "^9.8.0",
     "firebase-functions": "^3.14.1",
+    "json-server": "^0.17.0",
     "mongodb": "^2.2.33",
     "stripe": "^8.199.0"
   },
