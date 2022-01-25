@@ -18,10 +18,6 @@ function App() {
 
   const [{}, dispatch] = useStateValue();
 
-  const options = {
-    clientSecret:'{{CLIENT_SECRET}}',
-  };
-
   useEffect(() => {
     auth.onAuthStateChanged(authUser => {
       console.log('THE USER IS >>> ', authUser);
@@ -55,7 +51,7 @@ function App() {
             <Checkout />
           </Route>
           <Route path='/payment'>
-            <Elements stripe={promise} options={options}>
+            <Elements stripe={promise}>
               <Payment />
             </Elements>
           </Route>
