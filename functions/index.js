@@ -8,7 +8,9 @@ const stripe = require("stripe")('sk_test_51KKPQdH7ZwCEXBDQvlUzI2swAkMkqiwHksOnQ
 const app = express();
 
 // Middlewares
-app.use(cors());
+app.use(cors({
+    origin: 'https://crifshopplusplus.netlify.app/'
+  }));
 app.use(express.json());
 
 // API Routes
