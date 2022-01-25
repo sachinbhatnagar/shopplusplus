@@ -42,7 +42,7 @@ function Payment() {
         e.preventDefault();
         setProcessing(true);
 
-        const payload = await stripe.confirmCardPayment(stringClientSecret, {
+        const payload = await stripe.confirmCardPayment(clientSecret, {
             payment_method: {
                 card: elements.getElement(CardElement)
             }
