@@ -22,8 +22,6 @@ function Payment() {
     const [error, setError] = useState(null);
     const [disabled, setDisabled] = useState(true);
     const [clientSecret, setClientSecret] = useState(true);
-    
-    const stringClientSecret = clientSecret.toString();
 
     useEffect(() => {
         const getClientSecret = async () => {
@@ -36,13 +34,13 @@ function Payment() {
         getClientSecret();
     }, [basket])
 
-    console.log('The Secret is >>>>', stringClientSecret);
+    console.log('The Secret is >>>>', clientSecret);
     
     const handleSubmit = async (e) => {
         e.preventDefault();
         setProcessing(true);
 
-        const payload = await stripe.confirmCardPayment(stringClientSecret, {
+        const payload = await stripe.confirmCardPayment(clientSecret, {
             payment_method: {
                 card: elements.getElement(CardElement)
             }
