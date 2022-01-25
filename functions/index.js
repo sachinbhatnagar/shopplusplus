@@ -27,7 +27,7 @@ app.post('/payments/create', async (req, res) => {
     res.status(201).send({
         clientSecret: paymentIntent.client_secret,
     });
-});
+})
 
 // Listener
 

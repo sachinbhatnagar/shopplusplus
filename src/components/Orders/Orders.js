@@ -10,7 +10,7 @@ function Orders() {
 
   useEffect(() => {
     if (user) {
-    db.collections('users')
+    db.collection('users')
       .doc(user?.uid) // access user collection
       .collection('orders') // access that individual order
       .orderBy('created', 'desc') // order by date created and descending order
