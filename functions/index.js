@@ -9,8 +9,8 @@ const app = express();
 
 // Middlewares
 app.use(cors({
-    origin: 'https://crifshopplusplus.netlify.app/'
-  }));
+    origin: '*'
+}))
 app.use(express.json());
 
 // API Routes
