@@ -41,6 +41,54 @@
             "title": "HP 24-dd1036 All-in-One Desktop Computer Intel i3 8GB Memory 256GB SSD",
             "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSTXjxwIJs_TASHs9IWqDQFT4DROf0R7ovJ07drx5i0YDj1Vq3YvdNZdSQbMHmo8GypiZ72uX568S0&usqp=CAc",
             "price": "609.99"
-        }
+        },
+        {
+            "id": 7,
+            "title": "LG Velvet 5G 128GB LMG900UM GSM Unlocked 6.8 in P-OLED Display 6GB RAM Triple 48MP + 8MP + 5MP Camera Smartphone - Aurora Silver",
+            "image": "https://c1.neweggimages.com/ProductImageCompressAll1280/ABPXD2101266SHQZ.jpg",
+            "price": "289.99"
+        },
+        {
+            "id": 8,
+            "title": "Apple Watch Series 5 (GPS Only, 44mm, Gold Aluminum, Pink Sand Sport Band)",
+            "image": "https://c1.neweggimages.com/ProductImageCompressAll1280/ABMT_1_201909122012452552.jpg",
+            "price": "429.99"
+        },
+        {
+            "id": 9,
+            "title": "LG A1 77 inch Class 4K Smart AI",
+            "image": "https://c1.neweggimages.com/ProductImageCompressAll1280/89-007-797-S01.jpg",
+            "price": "3009.99"
+        },
+        {
+            "id": 10,
+            "title": "Skytech Blaze 2.0 Gaming Computer PC Desktop Black",
+            "image": "https://c1.neweggimages.com/ProductImageCompressAll1280/83-289-210-S01.jpg",
+            "price": "2059.99"
+        },   
+        {
+            "id": 11,
+            "title": "ABS Master Gaming PC ",
+            "image": "https://c1.neweggimages.com/ProductImageCompressAll1280/83-102-994-06.jpg",
+            "price": "2499.99"
+        },       
+        {
+            "id": 12,
+            "title": "Oculus Quest 2 — Advanced All-In-One Virtual Reality ",
+            "image": "https://m.media-amazon.com/images/I/615YaAiA-ML._SL1500_.jpg",
+            "price": "499.99"
+        },
+        {
+            "id": 13,
+            "title": "New Apple AirPods Pro Headphone",
+            "image": "https://m.media-amazon.com/images/I/71bhWgQK-cL._AC_SL1500_.jpg",
+            "price": "329.99"
+        },
+        {
+            "id": 14,
+            "title": "Arcade 1Up Arcade1Up The Simpsons",
+            "image": "https://m.media-amazon.com/images/I/81G58AN1TmL._SL1500_.jpg",
+            "price": "929.99"
+        } 
     ]
 }
