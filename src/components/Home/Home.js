@@ -9,6 +9,7 @@ function Home() {
             <img className='home-image' src='https://media.istockphoto.com/videos/loopable-color-gradient-background-animation-video-id1182636162?s=640x640' alt='' />
             <h1>ShopPlusPLUS!</h1>
                 <div className='home-row'>
+//         This data needs to be pulled from a database. Since you're using Firebase, you can setup a database there and use it to pull this in dynamically on app-load
                     <Product id='12345' title='SAMSUNG 43" Class 4K Crystal UHD 2160P LED Smart TV with HDR' price={399.99} 
                         image='https://i5.walmartimages.com/asr/a3a2646f-bb5c-4a81-9cc5-99d50f5bdb52.03d49a2a3f4fb25f04d4c2250be7ddc2.jpeg' />
                     
